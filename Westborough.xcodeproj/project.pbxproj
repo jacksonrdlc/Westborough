@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E32EF662A682AB800E14381 /* WestboroughApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E32EF652A682AB800E14381 /* WestboroughApp.swift */; };
+		8E32EF682A682AB800E14381 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E32EF672A682AB800E14381 /* ContentView.swift */; };
+		8E32EF6A2A682AB900E14381 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E32EF692A682AB900E14381 /* Assets.xcassets */; };
+		8E32EF6D2A682AB900E14381 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E32EF6C2A682AB900E14381 /* Preview Assets.xcassets */; };
+		8E32EF6F2A682AB900E14381 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E32EF6E2A682AB900E14381 /* Item.swift */; };
+		8E32EF7B2A682AB900E14381 /* WestboroughTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E32EF7A2A682AB900E14381 /* WestboroughTests.swift */; };
+		8E32EF852A682AB900E14381 /* WestboroughUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E32EF842A682AB900E14381 /* WestboroughUITests.swift */; };
+		8E32EF872A682AB900E14381 /* WestboroughUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E32EF862A682AB900E14381 /* WestboroughUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E32EF772A682AB900E14381 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E32EF5A2A682AB800E14381 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E32EF612A682AB800E14381;
+			remoteInfo = Westborough;
+		};
+		8E32EF812A682AB900E14381 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E32EF5A2A682AB800E14381 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E32EF612A682AB800E14381;
+			remoteInfo = Westborough;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E32EF622A682AB800E14381 /* Westborough.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Westborough.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E32EF652A682AB800E14381 /* WestboroughApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WestboroughApp.swift; sourceTree = "<group>"; };
+		8E32EF672A682AB800E14381 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8E32EF692A682AB900E14381 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E32EF6C2A682AB900E14381 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8E32EF6E2A682AB900E14381 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		8E32EF702A682AB900E14381 /* Westborough.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Westborough.entitlements; sourceTree = "<group>"; };
+		8E32EF712A682AB900E14381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E32EF762A682AB900E14381 /* WestboroughTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WestboroughTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E32EF7A2A682AB900E14381 /* WestboroughTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WestboroughTests.swift; sourceTree = "<group>"; };
+		8E32EF802A682AB900E14381 /* WestboroughUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WestboroughUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E32EF842A682AB900E14381 /* WestboroughUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WestboroughUITests.swift; sourceTree = "<group>"; };
+		8E32EF862A682AB900E14381 /* WestboroughUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WestboroughUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E32EF5F2A682AB800E14381 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E32EF732A682AB900E14381 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E32EF7D2A682AB900E14381 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E32EF592A682AB800E14381 = {
+			isa = PBXGroup;
+			children = (
+				8E32EF642A682AB800E14381 /* Westborough */,
+				8E32EF792A682AB900E14381 /* WestboroughTests */,
+				8E32EF832A682AB900E14381 /* WestboroughUITests */,
+				8E32EF632A682AB800E14381 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E32EF632A682AB800E14381 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E32EF622A682AB800E14381 /* Westborough.app */,
+				8E32EF762A682AB900E14381 /* WestboroughTests.xctest */,
+				8E32EF802A682AB900E14381 /* WestboroughUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E32EF642A682AB800E14381 /* Westborough */ = {
+			isa = PBXGroup;
+			children = (
+				8E32EF652A682AB800E14381 /* WestboroughApp.swift */,
+				8E32EF672A682AB800E14381 /* ContentView.swift */,
+				8E32EF692A682AB900E14381 /* Assets.xcassets */,
+				8E32EF6E2A682AB900E14381 /* Item.swift */,
+				8E32EF702A682AB900E14381 /* Westborough.entitlements */,
+				8E32EF712A682AB900E14381 /* Info.plist */,
+				8E32EF6B2A682AB900E14381 /* Preview Content */,
+			);
+			path = Westborough;
+			sourceTree = "<group>";
+		};
+		8E32EF6B2A682AB900E14381 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8E32EF6C2A682AB900E14381 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8E32EF792A682AB900E14381 /* WestboroughTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E32EF7A2A682AB900E14381 /* WestboroughTests.swift */,
+			);
+			path = WestboroughTests;
+			sourceTree = "<group>";
+		};
+		8E32EF832A682AB900E14381 /* WestboroughUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E32EF842A682AB900E14381 /* WestboroughUITests.swift */,
+				8E32EF862A682AB900E14381 /* WestboroughUITestsLaunchTests.swift */,
+			);
+			path = WestboroughUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E32EF612A682AB800E14381 /* Westborough */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E32EF8A2A682AB900E14381 /* Build configuration list for PBXNativeTarget "Westborough" */;
+			buildPhases = (
+				8E32EF5E2A682AB800E14381 /* Sources */,
+				8E32EF5F2A682AB800E14381 /* Frameworks */,
+				8E32EF602A682AB800E14381 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Westborough;
+			productName = Westborough;
+			productReference = 8E32EF622A682AB800E14381 /* Westborough.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E32EF752A682AB900E14381 /* WestboroughTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E32EF8D2A682AB900E14381 /* Build configuration list for PBXNativeTarget "WestboroughTests" */;
+			buildPhases = (
+				8E32EF722A682AB900E14381 /* Sources */,
+				8E32EF732A682AB900E14381 /* Frameworks */,
+				8E32EF742A682AB900E14381 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E32EF782A682AB900E14381 /* PBXTargetDependency */,
+			);
+			name = WestboroughTests;
+			productName = WestboroughTests;
+			productReference = 8E32EF762A682AB900E14381 /* WestboroughTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E32EF7F2A682AB900E14381 /* WestboroughUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E32EF902A682AB900E14381 /* Build configuration list for PBXNativeTarget "WestboroughUITests" */;
+			buildPhases = (
+				8E32EF7C2A682AB900E14381 /* Sources */,
+				8E32EF7D2A682AB900E14381 /* Frameworks */,
+				8E32EF7E2A682AB900E14381 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E32EF822A682AB900E14381 /* PBXTargetDependency */,
+			);
+			name = WestboroughUITests;
+			productName = WestboroughUITests;
+			productReference = 8E32EF802A682AB900E14381 /* WestboroughUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E32EF5A2A682AB800E14381 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					8E32EF612A682AB800E14381 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					8E32EF752A682AB900E14381 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 8E32EF612A682AB800E14381;
+					};
+					8E32EF7F2A682AB900E14381 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 8E32EF612A682AB800E14381;
+					};
+				};
+			};
+			buildConfigurationList = 8E32EF5D2A682AB800E14381 /* Build configuration list for PBXProject "Westborough" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E32EF592A682AB800E14381;
+			productRefGroup = 8E32EF632A682AB800E14381 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E32EF612A682AB800E14381 /* Westborough */,
+				8E32EF752A682AB900E14381 /* WestboroughTests */,
+				8E32EF7F2A682AB900E14381 /* WestboroughUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E32EF602A682AB800E14381 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E32EF6D2A682AB900E14381 /* Preview Assets.xcassets in Resources */,
+				8E32EF6A2A682AB900E14381 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E32EF742A682AB900E14381 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E32EF7E2A682AB900E14381 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E32EF5E2A682AB800E14381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E32EF682A682AB800E14381 /* ContentView.swift in Sources */,
+				8E32EF6F2A682AB900E14381 /* Item.swift in Sources */,
+				8E32EF662A682AB800E14381 /* WestboroughApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E32EF722A682AB900E14381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E32EF7B2A682AB900E14381 /* WestboroughTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E32EF7C2A682AB900E14381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E32EF872A682AB900E14381 /* WestboroughUITestsLaunchTests.swift in Sources */,
+				8E32EF852A682AB900E14381 /* WestboroughUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E32EF782A682AB900E14381 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E32EF612A682AB800E14381 /* Westborough */;
+			targetProxy = 8E32EF772A682AB900E14381 /* PBXContainerItemProxy */;
+		};
+		8E32EF822A682AB900E14381 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E32EF612A682AB800E14381 /* Westborough */;
+			targetProxy = 8E32EF812A682AB900E14381 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8E32EF882A682AB900E14381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E32EF892A682AB900E14381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E32EF8B2A682AB900E14381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Westborough/Westborough.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Westborough/Preview Content\"";
+				DEVELOPMENT_TEAM = P3YKE7B3N9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Westborough/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jackrudelic.remix.Westborough;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E32EF8C2A682AB900E14381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Westborough/Westborough.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Westborough/Preview Content\"";
+				DEVELOPMENT_TEAM = P3YKE7B3N9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Westborough/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jackrudelic.remix.Westborough;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8E32EF8E2A682AB900E14381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P3YKE7B3N9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jackrudelic.remix.WestboroughTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Westborough.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Westborough";
+			};
+			name = Debug;
+		};
+		8E32EF8F2A682AB900E14381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P3YKE7B3N9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jackrudelic.remix.WestboroughTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Westborough.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Westborough";
+			};
+			name = Release;
+		};
+		8E32EF912A682AB900E14381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P3YKE7B3N9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jackrudelic.remix.WestboroughUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Westborough;
+			};
+			name = Debug;
+		};
+		8E32EF922A682AB900E14381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P3YKE7B3N9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jackrudelic.remix.WestboroughUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Westborough;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E32EF5D2A682AB800E14381 /* Build configuration list for PBXProject "Westborough" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E32EF882A682AB900E14381 /* Debug */,
+				8E32EF892A682AB900E14381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E32EF8A2A682AB900E14381 /* Build configuration list for PBXNativeTarget "Westborough" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E32EF8B2A682AB900E14381 /* Debug */,
+				8E32EF8C2A682AB900E14381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E32EF8D2A682AB900E14381 /* Build configuration list for PBXNativeTarget "WestboroughTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E32EF8E2A682AB900E14381 /* Debug */,
+				8E32EF8F2A682AB900E14381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E32EF902A682AB900E14381 /* Build configuration list for PBXNativeTarget "WestboroughUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E32EF912A682AB900E14381 /* Debug */,
+				8E32EF922A682AB900E14381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E32EF5A2A682AB800E14381 /* Project object */;
+}
